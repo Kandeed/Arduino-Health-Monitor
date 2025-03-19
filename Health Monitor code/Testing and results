@@ -8,4 +8,13 @@ To install the libraries
 In Arduino IDE, go to Sketch > Include Library > Manage Libraries
 Search for their names and install
 
+
+You'll need to edit the following information in the code
+WiFi credentials:
+Your SSID - Replace with your actual WiFi network name
+Your PASSWORD - Replace with your actual WiFi password
+
+ThingSpeak API key:
+Your writeAPIKey - Replace with your ThingSpeak Write API Key
+
 Once that's all done you will upload the code to your board and open Serial Monitor at 115200 baud rate to see the data
