@@ -1,0 +1,14 @@
+These are the parts I used:
+
+Arduino Uno R4 Wi-Fi
+MAX30102 Pulse-Oximeter Module
+MLX90614 Contactless Temperature Sensor Module
+Some jumper cables during testing (I later soldered everything onto a vero board when i was done)
+
+Connections:
+
+Both the MAX30102 and MLX90614 use I2C communication, which allows multiple sensors to share the same SCL (clock) and SDA (data) lines.
+Connect the VCC pins of both sensors to the 3.3V output on the Arduino Uno R4 WiFi.
+Connect the GND pins of both sensors to any GND pin on the Arduino.
+Connect both sensors' SCL pins to the A5/SCL pin on the Arduino.
+Connect both sensors' SDA pins to the A4/SDA pin on the Arduino.
