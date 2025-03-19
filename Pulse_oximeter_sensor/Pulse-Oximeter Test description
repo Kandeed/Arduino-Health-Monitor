@@ -5,3 +5,4 @@ VIN to 3.3V (The MAX30100 is a 3.3V device)
 GND to GND
 SCL to A5 (SCL)
 SDA to A4 (SDA)
+INT pin connection is optional (not used in this code)
