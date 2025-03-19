@@ -6,12 +6,12 @@
 #include <ArduinoHttpClient.h>
 
 // WiFi credentials - REPLACE WITH YOUR ACTUAL VALUES
-const char* ssid = "KAND33D";
-const char* password = "kandeed33";
+const char* ssid = "Your SSID";
+const char* password = "Your Password";
 
 // ThingSpeak settings - REPLACE WITH YOUR ACTUAL VALUES
 const char* thingSpeakServer = "api.thingspeak.com";
-const String writeAPIKey = "Z3L428HM4K3D2YR6";
+const String writeAPIKey = "Your writeAPIKey";
 
 WiFiClient wifiClient;
 HttpClient httpClient(wifiClient, thingSpeakServer, 80);
@@ -154,7 +154,7 @@ void printSensorData() {
   Serial.print("%, Ambient Temp=");
   Serial.print(ambientTemp);
   Serial.print("°C, Object Temp=");
-  Serial.print(5 + objectTemp);
+  Serial.print(objectTemp);
   Serial.println("°C");
 }
 
