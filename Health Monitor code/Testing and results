@@ -1,0 +1,11 @@
+Before you begin you shoul install the following libraries:
+
+SparkFun MAX30105 Pulse and Proximity Kit
+Adafruit MLX90614 Library
+WiFiS3 library by Arduino
+
+To install the libraries
+In Arduino IDE, go to Sketch > Include Library > Manage Libraries
+Search for their names and install
+
+Once that's all done you will upload the code to your board and open Serial Monitor at 115200 baud rate to see the data
