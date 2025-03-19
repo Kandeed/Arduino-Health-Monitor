@@ -1,0 +1,8 @@
+This is the code to test the MLX90614 (GY-906) temperature sensor
+
+
+Connect the GY-906 (MLX90614) sensor to Arduino Uno R4 Wi-Fi:
+VIN to 3.3V or 5V (sensor works with either)
+GND to GND
+SCL to A5 (SCL)
+SDA to A4 (SDA)
