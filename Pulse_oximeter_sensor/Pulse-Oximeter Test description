@@ -1,1 +1,7 @@
+This is the code to test the MAX30100 Pulse Oximeter and Heart Rate Sensor
 
+Connect the MAX30100 sensor to Arduino Uno R4 Wi-Fi:
+VIN to 3.3V (The MAX30100 is a 3.3V device)
+GND to GND
+SCL to A5 (SCL)
+SDA to A4 (SDA)
